@@ -7,5 +7,15 @@ public class indomiegoreng extends indomie {
     void throttle(){
         System.out.println("pedas");
     }
+
+    public String getJenisgoreng() {
+        return jenisgoreng;
+    }
+
+    public void setJenisgoreng(String jenisgoreng) {
+        this.jenisgoreng = jenisgoreng;
+    }
+    
+    
     
 }
